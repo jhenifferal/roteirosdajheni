@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roteiro de compras no Paraguai | Jheni Lima</title>
+<meta name="description" content="As 8 lojas de Ciudad del Este na ordem que eu montei, com horários e a rota pronta no Google Maps.">
+<meta property="og:title" content="Roteiro de compras no Paraguai">
+<meta property="og:description" content="As 8 lojas na ordem, com horários e a rota pronta no Google Maps.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23F25CA2'/%3E%3Cpath d='M50 22c-10.5 0-19 8.5-19 19 0 14 19 37 19 37s19-23 19-37c0-10.5-8.5-19-19-19zm0 26a7 7 0 110-14 7 7 0 010 14z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --rosa:#F25CA2;
+    --rosa-claro:#FFE3F0;
+    --verde:#2E7D5B;
+    --dourado:#C9A66B;
+    --texto:#2A2124;
+    --texto-suave:#6E6268;
+    --fundo:#FFFBFC;
+    --card:#FFFFFF;
+    --borda:#F0DDE6;
+    --sombra:0 2px 14px rgba(242,92,162,.08);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --texto:#F6EDF1;
+      --texto-suave:#B9A9B1;
+      --fundo:#191216;
+      --card:#231a1f;
+      --borda:#3A2B33;
+      --rosa-claro:#3A2028;
+      --sombra:0 2px 14px rgba(0,0,0,.35);
+      --verde:#6FD9A8;
+    }
+  }
+  :root[data-theme="dark"]{
+    --texto:#F6EDF1;
+    --texto-suave:#B9A9B1;
+    --fundo:#191216;
+    --card:#231a1f;
+    --borda:#3A2B33;
+    --rosa-claro:#3A2028;
+    --sombra:0 2px 14px rgba(0,0,0,.35);
+    --verde:#6FD9A8;
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--fundo);
+    color:var(--texto);
+    font-family:"Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:640px;margin:0 auto;padding:0 16px 64px;}
+
+  /* HERO */
+  header{
+    background:linear-gradient(160deg,var(--rosa-claro) 0%,var(--fundo) 100%);
+    padding:48px 16px 36px;
+    text-align:center;
+    border-bottom:1px solid var(--borda);
+  }
+  .kicker{
+    font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--rosa);font-weight:600;margin:0 0 12px;
+  }
+  h1{
+    font-family:"Playfair Display",Georgia,serif;
+    font-size:2.1rem;line-height:1.15;margin:0 0 14px;font-weight:700;
+    max-width:460px;margin-left:auto;margin-right:auto;
+  }
+  .sub{color:var(--texto-suave);font-size:1rem;margin:0 auto 22px;max-width:420px;font-weight:300;}
+  .badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;}
+  .badge{
+    background:var(--card);border:1px solid var(--borda);color:var(--texto-suave);
+    font-size:.76rem;padding:6px 12px;border-radius:999px;font-weight:500;
+  }
+
+  /* BOTAO */
+  .cta{
+    display:block;width:100%;text-align:center;text-decoration:none;
+    background:var(--rosa);color:#fff;font-weight:600;font-size:1.02rem;
+    padding:18px 20px;border-radius:14px;margin:28px 0 8px;
+    box-shadow:0 4px 18px rgba(242,92,162,.32);
+  }
+  .cta:active{transform:translateY(1px);}
+  .cta-nota{text-align:center;font-size:.82rem;color:var(--texto-suave);margin:0 0 8px;}
+
+  /* SECOES */
+  section{margin-top:42px;}
+  h2{
+    font-family:"Playfair Display",Georgia,serif;
+    font-size:1.45rem;margin:0 0 6px;font-weight:600;
+  }
+  .sec-sub{color:var(--texto-suave);font-size:.9rem;margin:0 0 20px;font-weight:300;}
+
+  /* TOP 3 */
+  .top{
+    background:var(--card);border:1px solid var(--borda);border-left:3px solid var(--dourado);
+    border-radius:12px;padding:18px 18px 16px;margin-bottom:12px;box-shadow:var(--sombra);
+  }
+  .top-cab{display:flex;align-items:baseline;gap:10px;margin-bottom:6px;flex-wrap:wrap;}
+  .pos{
+    font-family:"Playfair Display",Georgia,serif;font-size:1.5rem;
+    color:var(--dourado);font-weight:700;line-height:1;
+  }
+  .top h3{font-size:1.05rem;margin:0;font-weight:600;}
+  .top p{margin:0;color:var(--texto-suave);font-size:.93rem;font-weight:300;}
+  .aviso{
+    display:inline-block;margin-top:10px;font-size:.8rem;
+    background:var(--rosa-claro);color:var(--texto);
+    padding:5px 10px;border-radius:8px;font-weight:500;
+  }
+
+  /* LISTA */
+  ol.lojas{list-style:none;margin:0;padding:0;counter-reset:loja;}
+  ol.lojas li{
+    counter-increment:loja;position:relative;
+    background:var(--card);border:1px solid var(--borda);border-radius:12px;
+    padding:16px 16px 16px 58px;margin-bottom:10px;box-shadow:var(--sombra);
+  }
+  ol.lojas li::before{
+    content:counter(loja);position:absolute;left:16px;top:16px;
+    width:28px;height:28px;border-radius:50%;
+    background:var(--rosa);color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-size:.85rem;font-weight:600;
+  }
+  .nome{font-weight:600;font-size:1.02rem;display:block;}
+  .end{color:var(--texto-suave);font-size:.88rem;font-weight:300;display:block;margin-top:2px;}
+  .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;}
+  .hora{
+    font-size:.78rem;font-weight:600;color:var(--verde);
+    background:color-mix(in srgb, var(--verde) 14%, transparent);
+    padding:4px 12px;border-radius:8px;
+  }
+  .hora.curto{color:#B3005C;background:rgba(242,92,162,.12);}
+  .ver{
+    font-size:.78rem;text-decoration:none;color:var(--rosa);font-weight:600;
+    border:1px solid var(--borda);padding:0 14px;border-radius:10px;
+    min-height:44px;display:inline-flex;align-items:center;
+  }
+  .hora{min-height:44px;display:inline-flex;align-items:center;}
+  .nota-li{
+    margin-top:10px;font-size:.84rem;color:var(--texto-suave);
+    border-left:2px solid var(--borda);padding-left:10px;font-weight:300;
+  }
+
+  /* DICAS */
+  .dica{
+    background:var(--card);border:1px solid var(--borda);border-top:3px solid var(--verde);
+    border-radius:12px;padding:18px;margin-bottom:12px;box-shadow:var(--sombra);
+  }
+  .dica h3{font-size:1rem;margin:0 0 8px;font-weight:600;}
+  .dica p{margin:0 0 10px;color:var(--texto-suave);font-size:.92rem;font-weight:300;}
+  .dica p:last-child{margin-bottom:0;}
+  .dica ol{margin:0;padding-left:20px;color:var(--texto-suave);font-size:.92rem;font-weight:300;}
+  .dica ol li{margin-bottom:6px;}
+  .dica strong{color:var(--texto);font-weight:500;}
+
+  /* FECHO */
+  .fecho{
+    background:var(--rosa-claro);border-radius:16px;
+    padding:28px 20px;text-align:center;margin-top:44px;
+  }
+  .fecho h2{margin-bottom:10px;}
+  .fecho p{color:var(--texto-suave);font-size:.95rem;font-weight:300;margin:0 auto 20px;max-width:380px;}
+  .redes{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;}
+  .rede{
+    text-decoration:none;background:var(--card);color:var(--rosa);
+    border:1px solid var(--borda);font-weight:600;font-size:.9rem;
+    padding:11px 20px;border-radius:999px;
+  }
+  .rede:first-child{background:var(--rosa);color:#fff;border-color:var(--rosa);}
+  .email{margin:20px auto 0 !important;font-size:.86rem;line-height:1.7;}
+  .email a{
+    color:var(--rosa);text-decoration:none;font-weight:600;
+    display:inline-flex;align-items:center;white-space:nowrap;
+    min-height:44px;padding:0 6px;
+  }
+
+  footer{
+    margin-top:38px;padding-top:26px;border-top:1px solid var(--borda);
+    text-align:center;color:var(--texto-suave);font-size:.86rem;font-weight:300;
+  }
+  footer a{
+    color:var(--rosa);text-decoration:none;font-weight:500;
+    display:inline-flex;align-items:center;min-height:44px;padding:0 6px;
+  }
+  .disclaimer{font-size:.78rem;margin-top:14px;line-height:1.5;}
+
+  @media (min-width:600px){
+    h1{font-size:2.5rem;}
+    header{padding:60px 16px 44px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <p class="kicker">Ciudad del Este</p>
+  <h1>O roteiro de compras que eu montei</h1>
+  <p class="sub">As 8 lojas na ordem, com o horário que cada uma fecha e a rota pronta pra abrir no seu Google Maps.</p>
+  <div class="badges">
+    <span class="badge">Roteiro de sábado</span>
+    <span class="badge">Atualizado em setembro de 2026</span>
+    <span class="badge">Trajeto a pé</span>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <a class="cta" href="https://www.google.com/maps/dir/?api=1&amp;destination=-25.5149524,-54.6062104&amp;waypoints=-25.5101877,-54.6056647%7C-25.5088695,-54.6089267%7C-25.5075732,-54.6096377%7C-25.5111105,-54.6112793%7C-25.5103599,-54.6103467%7C-25.5110654,-54.6095814%7C-25.5137742,-54.6059882&amp;travelmode=walking" target="_blank" rel="noopener">Abrir a rota no Google Maps</a>
+  <p class="cta-nota">Abre direto no app, com as 8 paradas na ordem</p>
+
+  <section>
+    <h2>As 8 lojas, na ordem</h2>
+    <p class="sec-sub">Essa é a sequência que faz o caminho render a pé, sem ficar indo e voltando.</p>
+
+    <ol class="lojas">
+      <li>
+        <span class="nome">New Zone</span>
+        <span class="end">Monseñor Rodríguez</span>
+        <div class="meta">
+          <span class="hora">Fecha 22h</span>
+          <a class="ver" href="https://www.google.com/maps/search/?api=1&amp;query=-25.5101877,-54.6056647" target="_blank" rel="noopener">Ver no mapa</a>
+        </div>
+      </li>
+      <li>
+        <span class="nome">Shopping Americana</span>
+        <span class="end">Av. San Blás</span>
+        <div class="meta">
+          <span class="hora curto">Fecha 13h30</span>
+          <a class="ver" href="https://www.google.com/maps/search/?api=1&amp;query=-25.5088695,-54.6089267" target="_blank" rel="noopener">Ver no mapa</a>
+        </div>
+        <p class="nota-li">É a loja de 1 dólar, e a única com pressa real no roteiro. Como fecha bem antes de todas as outras, ela precisa ficar no começo do dia.</p>
+      </li>
+      <li>
+        <span class="nome">Terra Nova</span>
+        <span class="end">Emiliano R. Fernández</span>
+        <div class="meta">
+          <span class="hora">Fecha 16h</span>
+          <a class="ver" href="https://www.google.com/maps/search/?api=1&amp;query=-25.5075732,-54.6096377" target="_blank" rel="noopener">Ver no mapa</a>
+        </div>
+      </li>
+      <li>
+        <span class="nome">Elegancia Company</span>
+        <span class="end">Edifício Victoria, Adrián Jara</span>
+        <div class="meta">
+          <span class="hora">Fecha 15h30</span>
+          <a class="ver" href="https://www.google.com/maps/search/?api=1&amp;query=-25.5111105,-54.6112793" target="_blank" rel="noopener">Ver no mapa</a>
+        </div>
+      </li>
+      <li>
+        <span class="nome">Cellshop</span>
+        <span class="end">Carlos A. López c/ Adrián Jara</span>
+        <div class="meta">
+          <span class="hora">Fecha 16h30</span>
+          <a class="ver" href="https://www.google.com/maps/search/?api=1&amp;query=-25.5103599,-54.6103467" target="_blank" rel="noopener">Ver no mapa</a>
+        </div>
+      </li>
+      <li>
+        <span class="nome">Nissei</span>
+        <span class="end">Shopping Hijazi, Adrián Jara</span>
+        <div class="meta">
+          <span class="hora">Fecha 16h</span>
+          <a class="ver" href="https://www.google.com/maps/search/?api=1&amp;query=-25.5110654,-54.6095814" target="_blank" rel="noopener">Ver no mapa</a>
+        </div>
+      </li>
+      <li>
+        <span class="nome">Victoria's Secret</span>
+        <span class="end">Shopping Paris, Luis Maria Argaña</span>
+        <div class="meta">
+          <span class="hora">Fecha 19h</span>
+          <a class="ver" href="https://www.google.com/maps/search/?api=1&amp;query=-25.5137742,-54.6059882" target="_blank" rel="noopener">Ver no mapa</a>
+        </div>
+        <p class="nota-li">Fui na viagem de 2025. Nessa última não deu tempo de passar, mas deixei no roteiro porque continua sendo a minha número 1.</p>
+      </li>
+      <li>
+        <span class="nome">Shopping China</span>
+        <span class="end">Luis Maria Argaña</span>
+        <div class="meta">
+          <span class="hora">Fecha 20h</span>
+          <a class="ver" href="https://www.google.com/maps/search/?api=1&amp;query=-25.5149524,-54.6062104" target="_blank" rel="noopener">Ver no mapa</a>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Antes de atravessar</h2>
+    <p class="sec-sub">Essas dicas me salvaram e são essenciais para um dia de muita caminhada pelo Paraguai.</p>
+
+    <div class="dica">
+      <h3>Baixe o mapa offline ainda no Brasil</h3>
+      <p>O sinal lá falha bastante e roaming é imprevisível. Com o mapa baixado você continua conseguindo se localizar mesmo sem internet.</p>
+      <ol>
+        <li>Abra o <strong>Google Maps</strong> com internet, ainda aqui</li>
+        <li>Toque na <strong>sua foto de perfil</strong>, no canto superior direito</li>
+        <li>Escolha <strong>Mapas off-line</strong></li>
+        <li>Toque em <strong>Selecionar seu próprio mapa</strong></li>
+        <li>Arraste e dê zoom até a área cobrir <strong>Ciudad del Este inteira e a Ponte da Amizade</strong></li>
+        <li>Toque em <strong>Baixar</strong> e espere terminar</li>
+      </ol>
+      <p style="margin-top:12px"><strong>Importante:</strong> o mapa offline te mostra onde você está e onde ficam as ruas, mas a navegação passo a passo a pé não funciona sem internet. Por isso vale também abrir a rota aqui com sinal e tirar print da sequência das lojas.</p>
+    </div>
+
+    <div class="dica">
+      <h3>Vá de sapato confortável</h3>
+      <p>Esse roteiro inteiro é feito a pé, como a gente fez. São várias horas de caminhada, calçada irregular e muito tempo em pé dentro das lojas. Não é dia de estrear sapato nem de salto.</p>
+    </div>
+
+    <div class="dica">
+      <h3>Se mantenha hidratada</h3>
+      <p>Calor de Ciudad del Este não é brincadeira e o dia é longo. Leve uma garrafinha de água e vá enchendo, porque entre uma loja e outra nem sempre dá vontade de parar, e aí a desidratação chega antes do cansaço.</p>
+    </div>
+
+    <div class="dica">
+      <h3>Os horários mudam</h3>
+      <p>Esses horários são os de sábado, de setembro de 2026. Em dia de semana muitas lojas abrem e fecham em horário diferente, então confirme antes de montar o seu dia em cima deles.</p>
+    </div>
+  </section>
+
+  <section class="fecho">
+    <h2>Ficou com alguma dúvida?</h2>
+    <p>Me manda uma DM que eu respondo! E me acompanha pra ver o resto da viagem, tudo que eu trouxe e os reviews de cada produtinho.</p>
+    <div class="redes">
+      <a class="rede" href="https://instagram.com/direct/t/jhenifferlimaa" target="_blank" rel="noopener">Mandar DM</a>
+      <a class="rede" href="mailto:contatojheniffer@outlook.com">Mandar e-mail</a>
+    </div>
+    <p class="email">Todos os meus links:<br><a href="https://jhenifferlimalinks.vercel.app" target="_blank" rel="noopener">jhenifferlimalinks.vercel.app</a></p>
+  </section>
+
+  <footer>
+    <p>Feito por <a href="https://instagram.com/jhenifferlimaa" target="_blank" rel="noopener">@jhenifferlimaa</a></p>
+    <p class="disclaimer">Roteiro montado a partir das minhas viagens, sem nenhum vínculo comercial com as lojas citadas. Horários e endereços levantados em setembro de 2026 e sujeitos a mudança.</p>
+  </footer>
+
+</div>
+</body>
+</html>
